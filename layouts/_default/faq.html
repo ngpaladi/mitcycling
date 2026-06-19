@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">Help</div>
+    <h1>FAQ</h1>
+    <p>Common questions about joining, racing, and riding with MIT Cycling.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container container--text">
+
+    {{ range hugo.Data.faq }}
+    <div style="margin-bottom:2.5rem">
+      <h2 style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--crimson);letter-spacing:.08em;text-transform:uppercase;margin-bottom:1rem">
+        {{ .category }}
+      </h2>
+      <div class="faq-list">
+        {{ range .questions }}
+        <div class="faq-item">
+          <button class="faq-question">
+            {{ .q }}
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner">
+              <p>{{ .a | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    <div style="margin-top:3rem;padding:2rem;background:var(--gray-100);border-radius:var(--radius-lg);text-align:center">
+      <p style="color:var(--gray-700);margin-bottom:1rem">
+        Still have questions? We're happy to help.
+      </p>
+      <a href="mailto:{{ .Site.Params.email }}" class="btn btn-primary">Email Us</a>
+    </div>
+
+  </div>
+</section>
+
+{{ end }}

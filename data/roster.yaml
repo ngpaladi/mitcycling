@@ -1,0 +1,112 @@
+# Roster data — organized by season.
+# Add most recent season at the top.
+# Leave role blank for non-officers. Disciplines: Road, Track, Cyclocross, Mountain
+
+- season: "2025-2026"
+  members:
+    - name: "Tatem Rios"
+      year: "PhD"
+      department: "Mechanical Engineering"
+      disciplines: ["Road", "Track"]
+      role: "President"
+      image: ""
+
+    - name: "Will Lu"
+      year: "Graduate"
+      department: "EECS"
+      disciplines: ["Road"]
+      role: "Treasurer"
+      image: ""
+
+    - name: "David Galambos"
+      year: "Graduate"
+      department: "Physics"
+      disciplines: ["Road", "Cyclocross"]
+      role: "Treasurer"
+      image: ""
+
+    - name: "Chen Lu"
+      year: "Undergraduate"
+      department: "Course 2"
+      disciplines: ["Road"]
+      role: "Road Captain"
+      image: ""
+
+    - name: "Lorenzo Van Munoz"
+      year: "Graduate"
+      department: "Chemistry"
+      disciplines: ["Road"]
+      role: "Road Captain"
+      image: ""
+
+    - name: "Jody Mou"
+      year: "PhD"
+      department: "Biology"
+      disciplines: ["Cyclocross", "Road"]
+      role: "CX Captain"
+      image: ""
+
+    - name: "Ryan Raikman"
+      year: "Graduate"
+      department: "AeroAstro"
+      disciplines: ["Cyclocross", "Road"]
+      role: "CX Captain"
+      image: ""
+
+    - name: "Aaron Vliet"
+      year: "PhD"
+      department: "Physics"
+      disciplines: ["Road", "Track"]
+      role: ""
+      image: ""
+
+    - name: "Riley Park"
+      year: "PhD"
+      department: "EECS"
+      disciplines: ["Track"]
+      role: ""
+      image: ""
+
+    - name: "Hannah Chen"
+      year: "Undergraduate"
+      department: "Course 6"
+      disciplines: ["Road"]
+      role: ""
+      image: ""
+
+- season: "2024-2025"
+  members:
+    - name: "Tatem Rios"
+      year: "PhD"
+      department: "Mechanical Engineering"
+      disciplines: ["Road", "Track"]
+      role: "President"
+      image: ""
+
+    - name: "Will Lu"
+      year: "Graduate"
+      department: "EECS"
+      disciplines: ["Road"]
+      role: "Treasurer"
+      image: ""
+
+    - name: "David Galambos"
+      year: "Graduate"
+      department: "Physics"
+      disciplines: ["Road", "Cyclocross"]
+      role: "Treasurer"
+      image: ""
+
+    - name: "Aaron Vliet"
+      year: "PhD"
+      department: "Physics"
+      disciplines: ["Road", "Track"]
+      role: ""
+      image: ""
+
+    - name: "Jody Mou"
+      year: "PhD"
+      department: "Biology"
+      disciplines: ["Cyclocross"]
+      role: "CX Captain"
+      image: ""

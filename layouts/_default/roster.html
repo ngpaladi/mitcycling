@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">Team</div>
+    <h1>Team Roster</h1>
+    <p>The riders who make MIT Cycling what it is.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    {{ $seasons := hugo.Data.roster }}
+    {{ if $seasons }}
+
+    <!-- Season tabs -->
+    <div class="roster-tabs" role="tablist" aria-label="Season">
+      {{ range $i, $season := $seasons }}
+      <button class="roster-tab {{ if eq $i 0 }}active{{ end }}"
+              data-roster-tab="{{ $season.season }}"
+              role="tab"
+              aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}">
+        {{ $season.season }}
+      </button>
+      {{ end }}
+    </div>
+
+    <!-- Roster cards per season -->
+    {{ range $i, $season := $seasons }}
+    <div id="roster-{{ $season.season | replaceRE "[^a-z0-9]" "-" }}"
+         data-roster-season="{{ $season.season }}"
+         {{ if ne $i 0 }}style="display:none"{{ end }}>
+
+      <div class="roster-grid">
+        {{ range $season.members }}
+        <div class="roster-card">
+          <div class="roster-avatar">
+            {{ if .image }}<img src="{{ .image }}" alt="{{ .name }}">
+            {{ else }}{{ substr .name 0 1 }}{{ end }}
+          </div>
+          <div class="roster-name">{{ .name }}</div>
+          {{ with .department }}<div class="roster-detail">{{ . }}</div>{{ end }}
+          {{ with .year }}<div class="roster-detail">{{ . }}</div>{{ end }}
+          {{ with .role }}<div class="roster-role">{{ . }}</div>{{ end }}
+          {{ with .disciplines }}
+          <div class="roster-disciplines">
+            {{ range . }}
+            <span class="tag tag--{{ . | lower }}">{{ . }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ else }}
+    <p style="color:var(--gray-500)">Roster coming soon.</p>
+    {{ end }}
+
+  </div>
+</section>
+
+{{ end }}

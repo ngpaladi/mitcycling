@@ -1,0 +1,110 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">Get Involved</div>
+    <h1>Join the Team</h1>
+    <p>Whether you're a seasoned racer or brand new to cycling — you belong here.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 380px;gap:3rem;align-items:start">
+
+      <div>
+        <div class="section-header">
+          <div class="section-label">Membership</div>
+          <h2 class="section-title">How to Join</h2>
+          <p class="section-desc">Getting started takes just a few steps. No prior racing experience required.</p>
+        </div>
+
+        <div class="join-steps">
+          <div class="join-step">
+            <div class="join-step-num"></div>
+            <div>
+              <div class="join-step-title">Join MIT Club Sports</div>
+              <p class="join-step-desc">
+                Register through <a href="https://clubsports.mit.edu" target="_blank" rel="noopener">MIT Club Sports</a>
+                (DoSportsEasy). Sign any required waivers there. This step is required for all MIT club sport members.
+              </p>
+            </div>
+          </div>
+          <div class="join-step">
+            <div class="join-step-num"></div>
+            <div>
+              <div class="join-step-title">Pay Membership Dues</div>
+              <p class="join-step-desc">
+                Pay dues through MIT's payment portal. Choose the tier that fits your racing plans for the season.
+                If costs are a barrier, <a href="mailto:{{ .Site.Params.email }}">contact us</a> — we want everyone to be able to participate.
+              </p>
+            </div>
+          </div>
+          <div class="join-step">
+            <div class="join-step-num"></div>
+            <div>
+              <div class="join-step-title">Get a USA Cycling License</div>
+              <p class="join-step-desc">
+                Racing in ECCC events requires a
+                <a href="https://www.usacycling.org/license" target="_blank" rel="noopener">USA Cycling collegiate license</a>.
+                One-day licenses are available for occasional racers.
+              </p>
+            </div>
+          </div>
+          <div class="join-step">
+            <div class="join-step-num"></div>
+            <div>
+              <div class="join-step-title">Show Up and Ride</div>
+              <p class="join-step-desc">
+                Join a group ride, come to a team meeting, or just email us at
+                <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>.
+                We're a friendly crew — come say hi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing sidebar -->
+      <div>
+        <div class="section-label">Dues</div>
+        <h2 class="section-title" style="margin-bottom:1.5rem">Membership Tiers</h2>
+
+        <div style="display:flex;flex-direction:column;gap:1rem">
+          <div class="pricing-card">
+            <div class="pricing-tier">Basic</div>
+            <div class="pricing-amount">$30</div>
+            <div class="pricing-desc">Up to 1 race weekend</div>
+            <a href="https://mit.universitytickets.com/w/event.aspx?id=2261" target="_blank" rel="noopener" class="btn btn-outline" style="color:var(--navy);border-color:var(--gray-300);width:100%;justify-content:center">
+              Sign Up
+            </a>
+          </div>
+          <div class="pricing-card pricing-card--featured">
+            <div class="pricing-tier">3 Weekends</div>
+            <div class="pricing-amount">$150</div>
+            <div class="pricing-desc">Unlimited for undergrads</div>
+            <a href="https://mit.universitytickets.com/w/event.aspx?id=2261" target="_blank" rel="noopener" class="btn btn-primary" style="width:100%;justify-content:center">
+              Sign Up
+            </a>
+          </div>
+          <div class="pricing-card">
+            <div class="pricing-tier">6 Weekends</div>
+            <div class="pricing-amount">$250</div>
+            <div class="pricing-desc">Unlimited for grad students</div>
+            <a href="https://mit.universitytickets.com/w/event.aspx?id=2261" target="_blank" rel="noopener" class="btn btn-outline" style="color:var(--navy);border-color:var(--gray-300);width:100%;justify-content:center">
+              Sign Up
+            </a>
+          </div>
+        </div>
+
+        <p style="font-size:.82rem;color:var(--gray-500);margin-top:1rem;text-align:center;line-height:1.6">
+          Financial hardship? <a href="mailto:{{ .Site.Params.email }}" style="color:var(--crimson)">Reach out</a> —
+          we'll work something out.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,81 @@
+baseURL = 'https://www.noahpaladino.com/mitcycling'
+locale = 'en-us'
+title = 'MIT Cycling Club'
+enableRobotsTXT = true
+summaryLength = 50
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  style = 'monokai'
+
+[params]
+  description = "MIT's premier collegiate cycling club — competing in Division II of the Eastern Collegiate Cycling Conference across road, track, cyclocross, and mountain disciplines."
+  twitter = "mitcyclingteam"
+  instagram = "mitcycling"
+  email = "cycling-club@mit.edu"
+  raceEmail = "cycling-race@mit.edu"
+  officersEmail = "cycling-all-officers@mit.edu"
+  sponsorshipEmail = "cycling-sponsorship@mit.edu"
+  donateURL = "https://giving.mit.edu"
+  # Set your Behold.so widget ID here for a live Instagram feed (free at behold.so)
+  beholdWidgetId = ""
+  # Hero image path (relative to /static). Swap to a higher-res team photo when available.
+  heroImage = "img/hero-team.png"
+  # road-results.com team widget ID (from the embed code on your team page)
+  roadResultsTeamId = "40588"
+  # crossresults.com team widget ID
+  crossResultsTeamId = "47377"
+  # Strava club widget token (from the embed code on the club's Strava page)
+  stravaClubSlug = "mit-cycling-club"
+  stravaClubToken = "7dd0491a0878e14721477815ce55169e79209cd3"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[[menus.main]]
+  name = "Results"
+  url = "/results/"
+  weight = 20
+
+[[menus.main]]
+  name = "Roster"
+  url = "/roster/"
+  weight = 30
+
+[[menus.main]]
+  name = "Sponsors"
+  url = "/sponsors/"
+  weight = 40
+
+[[menus.main]]
+  name = "Routes"
+  url = "/routes/"
+  weight = 50
+
+[[menus.main]]
+  name = "FAQ"
+  url = "/faq/"
+  weight = 60
+
+[[menus.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 70
+
+[[menus.cta]]
+  name = "Join the Team"
+  url = "/join/"
+  weight = 1
+
+[[menus.cta]]
+  name = "Donate"
+  url = "https://giving.mit.edu"
+  weight = 2

@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">MIT Cycling</div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    {{ if .Pages }}
+    <div class="blog-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="blog-card">
+        <div class="blog-card-image">
+          {{ if .Params.image }}
+          <img src="{{ partial "img-src.html" .Params.image }}" alt="" loading="lazy">
+          {{ else }}
+          <div class="blog-card-image-placeholder"></div>
+          {{ end }}
+        </div>
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            <span class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          </div>
+          <h2 class="blog-card-title">{{ .Title }}</h2>
+          <p class="blog-card-summary">{{ .Content | plainify | truncate 160 }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p style="color:var(--gray-500)">Nothing here yet.</p>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

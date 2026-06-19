@@ -1,0 +1,49 @@
+# Sponsors data — edit to update logos, URLs, and descriptions.
+# Supported tiers: Title, Elite, Team Shop, Product, Community
+
+- name: "Thoughtforms"
+  tier: "Title"
+  url: "https://thoughtforms.com"
+  logo: "/img/sponsors/thoughtforms.jpg"
+  description: >
+    Custom home builder and 2003 Custom Builder of the Year, inducted into the
+    New England Design Hall of Fame in 2017. Thoughtforms has four MIT alumni in
+    leadership and includes professional cyclists on staff. Their long-standing
+    support of MIT Cycling reflects a shared passion for craftsmanship, precision,
+    and pushing limits.
+
+- name: "Exponent"
+  tier: "Elite"
+  url: "https://exponent.com"
+  logo: "/img/sponsors/exponent.png"
+  description: >
+    An international consulting firm specializing in failure and accident analysis,
+    Exponent has sponsored MIT Cycling for over a decade. Many of their MIT-alumni
+    engineers are competitive cyclists themselves, and the firm's support directly
+    enables our participation in ECCC events and national championships.
+
+- name: "Back In Action Bikes"
+  tier: "Team Shop"
+  url: "https://www.backinactionbikes.com"
+  logo: "/img/sponsors/backinactionbikes.png"
+  description: >
+    Our team shop partner since 2023. Zach and the team at Back In Action provide
+    high-quality bike builds, repairs, and maintenance for club members at preferential
+    rates. Their mechanical expertise and proximity to campus make them an invaluable
+    part of our operation.
+
+- name: "Rudy Project"
+  tier: "Product"
+  url: "https://rudyproject.com"
+  logo: "/img/sponsors/rudyproject.png"
+  description: >
+    Rudy Project supplies our team with helmets and eyewear, helping keep riders
+    protected and visible at ECCC events and training rides throughout the year.
+
+- name: "Ascent Bikes"
+  tier: "Product"
+  url: "https://www.ascent-bikes.com"
+  logo: "/img/sponsors/sponsor5.png"
+  description: >
+    Ascent Bikes provides equipment support for the club, with particular focus on
+    our mountain bike and cyclocross programs.

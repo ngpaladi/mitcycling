@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">Get in Touch</div>
+    <h1>Contact</h1>
+    <p>Questions, sponsorships, or just want to ride? We're reachable.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div>
+        <h2 class="section-title" style="margin-bottom:1.5rem">Get in Touch</h2>
+        <div class="contact-card" style="margin-bottom:2.5rem">
+          <div class="contact-item" style="margin-bottom:1.25rem">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-content">
+              <div class="contact-item-label">Officers</div>
+              <div class="contact-item-value">
+                <a href="mailto:{{ .Site.Params.officersEmail }}">{{ .Site.Params.officersEmail }}</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item" style="margin-top:1.25rem">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-content">
+              <div class="contact-item-label">Sponsorships</div>
+              <div class="contact-item-value">
+                <a href="mailto:{{ .Site.Params.sponsorshipEmail }}">{{ .Site.Params.sponsorshipEmail }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-title" style="margin-bottom:1.5rem">Social Media</h2>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap">
+          <a href="https://instagram.com/mitcycling" target="_blank" rel="noopener"
+             class="btn btn-primary">
+            📷 @mitcycling
+          </a>
+          <a href="https://twitter.com/mitcyclingteam" target="_blank" rel="noopener"
+             class="btn btn-outline" style="color:var(--navy);border-color:var(--gray-300)">
+            𝕏 @mitcyclingteam
+          </a>
+          <a href="https://www.strava.com/clubs/mitcycling" target="_blank" rel="noopener"
+             class="btn btn-outline" style="color:var(--navy);border-color:var(--gray-300)">
+            🚴 @mitcycling
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

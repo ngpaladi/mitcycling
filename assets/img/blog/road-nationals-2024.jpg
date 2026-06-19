@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+  <title>Page not found | MIT Cycling Team Blog</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="http://cycling.mit.edu/blog/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://cycling.mit.edu/blog/wp-content/themes/twentyfourteen/js/html5.js"></script>
+	<![endif]-->
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MIT Cycling Team Blog &raquo; Feed" href="http://cycling.mit.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MIT Cycling Team Blog &raquo; Comments Feed" href="http://cycling.mit.edu/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cycling.mit.edu\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.26"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://cycling.mit.edu/blog/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=4.9.26' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://cycling.mit.edu/blog/wp-content/themes/twentyfourteen/genericons/genericons.css?ver=3.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://cycling.mit.edu/blog/wp-content/themes/mit/style.css?ver=4.9.26' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://cycling.mit.edu/blog/wp-content/themes/twentyfourteen/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://cycling.mit.edu/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cycling.mit.edu/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cycling.mit.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cycling.mit.edu/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cycling.mit.edu/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.26" />
+<style id="fourteen-colors" type="text/css">/* Custom Contrast Color */
+		.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.menu-toggle,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: #333333;
+		}
+
+		.grid .featured-content .entry-header,
+		.ie8 .grid .featured-content .entry-header {
+			border-color: #333333;
+		}
+
+		.slider-control-paging a:before {
+			background-color: rgba(255,255,255,.33);
+		}
+
+		.hentry .mejs-mediaelement,
+		.hentry .mejs-container .mejs-controls {
+			background: #333333;
+		}
+	
+			.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+				background: #333333;
+			}
+
+			.paging-navigation,
+			.content-sidebar .widget .widget-title {
+				border-top-color: #333333;
+			}
+
+			.content-sidebar .widget .widget-title, 
+			.content-sidebar .widget .widget-title a,
+			.paging-navigation,
+			.paging-navigation a:hover,
+			.paging-navigation a {
+				color: #333333;
+			}
+
+			/* Override the site title color option with an over-qualified selector, as the option is hidden. */
+			h1.site-title a {
+				color: #fff;
+			}
+		
+		.menu-toggle:active,
+		.menu-toggle:focus,
+		.menu-toggle:hover {
+			background-color: #777777;
+		}
+		/* Custom accent color. */
+		button,
+		.button,
+		.contributor-posts-link,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.search-toggle,
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.hentry .mejs-overlay:hover .mejs-overlay-button,
+		.widget button,
+		.widget .button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.content-sidebar .widget input[type="button"],
+		.content-sidebar .widget input[type="reset"],
+		.content-sidebar .widget input[type="submit"],
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before,
+		.slider-direction-nav a:hover,
+		.ie8 .primary-navigation ul ul,
+		.ie8 .secondary-navigation ul ul,
+		.ie8 .primary-navigation li:hover > a,
+		.ie8 .primary-navigation li.focus > a,
+		.ie8 .secondary-navigation li:hover > a,
+		.ie8 .secondary-navigation li.focus > a {
+			background-color: #993333;
+		}
+
+		.site-navigation a:hover {
+			color: #993333;
+		}
+
+		::-moz-selection {
+			background: #993333;
+		}
+
+		::selection {
+			background: #993333;
+		}
+
+		.paging-navigation .page-numbers.current {
+			border-color: #993333;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation li:hover > a,
+			.primary-navigation li.focus > a,
+			.primary-navigation ul ul {
+				background-color: #993333;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation li:hover > a,
+			.secondary-navigation li.focus > a,
+			.secondary-navigation ul ul {
+				background-color: #993333;
+			}
+		}
+	
+			.contributor-posts-link,
+			button,
+			.button,
+			input[type="button"],
+			input[type="reset"],
+			input[type="submit"],
+			.search-toggle:before,
+			.hentry .mejs-overlay:hover .mejs-overlay-button,
+			.widget button,
+			.widget .button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.site-footer .widget_calendar tbody a,
+			.content-sidebar .widget input[type="button"],
+			.content-sidebar .widget input[type="reset"],
+			.content-sidebar .widget input[type="submit"],
+			button:hover,
+			button:focus,
+			.button:hover,
+			.button:focus,
+			.widget a.button:hover,
+			.widget a.button:focus,
+			.widget a.button:active,
+			.content-sidebar .widget a.button,
+			.content-sidebar .widget a.button:hover,
+			.content-sidebar .widget a.button:focus,
+			.content-sidebar .widget a.button:active,
+			.contributor-posts-link:hover,
+			.contributor-posts-link:active,
+			input[type="button"]:hover,
+			input[type="button"]:focus,
+			input[type="reset"]:hover,
+			input[type="reset"]:focus,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			.slider-direction-nav a:hover:before {
+				color: #fff;
+			}
+
+			@media screen and (min-width: 782px) {
+				.primary-navigation ul ul a,
+				.primary-navigation li:hover > a,
+				.primary-navigation li.focus > a,
+				.primary-navigation ul ul {
+					color: #fff;
+				}
+			}
+
+			@media screen and (min-width: 1008px) {
+				.secondary-navigation ul ul a,
+				.secondary-navigation li:hover > a,
+				.secondary-navigation li.focus > a,
+				.secondary-navigation ul ul {
+					color: #fff;
+				}
+			}
+		
+		/* Generated variants of custom accent color. */
+		a,
+		.content-sidebar .widget a {
+			color: #993333;
+		}
+
+		.contributor-posts-link:hover,
+		.button:hover,
+		.button:focus,
+		.slider-control-paging a:hover:before,
+		.search-toggle:hover,
+		.search-toggle.active,
+		.search-box,
+		.widget_calendar tbody a:hover,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.widget button:hover,
+		.widget .button:hover,
+		.widget button:focus,
+		.widget .button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.content-sidebar .widget input[type="button"]:hover,
+		.content-sidebar .widget input[type="button"]:focus,
+		.content-sidebar .widget input[type="reset"]:hover,
+		.content-sidebar .widget input[type="reset"]:focus,
+		.content-sidebar .widget input[type="submit"]:hover,
+		.content-sidebar .widget input[type="submit"]:focus,
+		.ie8 .primary-navigation ul ul a:hover,
+		.ie8 .primary-navigation ul ul li.focus > a,
+		.ie8 .secondary-navigation ul ul a:hover,
+		.ie8 .secondary-navigation ul ul li.focus > a {
+			background-color: #b65050;
+		}
+
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #b65050;
+		}
+
+		a:active,
+		a:hover,
+		.entry-title a:hover,
+		.entry-meta a:hover,
+		.cat-links a:hover,
+		.entry-content .edit-link a:hover,
+		.post-navigation a:hover,
+		.image-navigation a:hover,
+		.comment-author a:hover,
+		.comment-list .pingback a:hover,
+		.comment-list .trackback a:hover,
+		.comment-metadata a:hover,
+		.comment-reply-title small a:hover,
+		.content-sidebar .widget a:hover,
+		.content-sidebar .widget .widget-title a:hover,
+		.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+			color: #b65050;
+		}
+
+		.page-links a:hover,
+		.paging-navigation a:hover {
+			border-color: #b65050;
+		}
+
+		.entry-meta .tag-links a:hover:before {
+			border-right-color: #b65050;
+		}
+
+		.page-links a:hover,
+		.entry-meta .tag-links a:hover {
+			background-color: #b65050;
+		}
+
+		@media screen and (min-width: 782px) {
+			.primary-navigation ul ul a:hover,
+			.primary-navigation ul ul li.focus > a {
+				background-color: #b65050;
+			}
+		}
+
+		@media screen and (min-width: 1008px) {
+			.secondary-navigation ul ul a:hover,
+			.secondary-navigation ul ul li.focus > a {
+				background-color: #b65050;
+			}
+		}
+
+		button:active,
+		.button:active,
+		.contributor-posts-link:active,
+		input[type="button"]:active,
+		input[type="reset"]:active,
+		input[type="submit"]:active,
+		.widget input[type="button"]:active,
+		.widget input[type="reset"]:active,
+		.widget input[type="submit"]:active,
+		.content-sidebar .widget input[type="button"]:active,
+		.content-sidebar .widget input[type="reset"]:active,
+		.content-sidebar .widget input[type="submit"]:active {
+			background-color: #ca6464;
+		}
+
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a {
+			color: #ca6464;
+		}
+	
+		/* Higher contrast Accent Color against contrast color */
+		.site-navigation .current_page_item > a,
+		.site-navigation .current_page_ancestor > a,
+		.site-navigation .current-menu-item > a,
+		.site-navigation .current-menu-ancestor > a,
+		.site-navigation a:hover,
+		.featured-content a:hover,
+		.featured-content .entry-title a:hover,
+		.widget a:hover,
+		.widget-title a:hover,
+		.widget_twentyfourteen_ephemera .entry-meta a:hover,
+		.hentry .mejs-controls .mejs-button button:hover,
+		.site-info a:hover,
+		.featured-content a:hover {
+			color: #c96363;
+		}
+
+		.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+		.slider-control-paging a:hover:before,
+		.slider-control-paging .slider-active:before,
+		.slider-control-paging .slider-active:hover:before {
+			background-color: #c96363;
+		}
+	</style>    <style>@media screen and (min-width: 783px){.primary-navigation{float: right;margin-left: 20px;}a { transition: all .5s ease; }}</style>
+    <style>.site {margin: 0 auto;max-width: 1260px;width: 100%;}.site-header{max-width: 1260px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}</style>
+    <style>
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 700px;}.comments-area{max-width: 700px;}.post-navigation, .image-navigation{max-width: 700px;}</style>
+    <style>.site:before,#secondary{width:0;display:none;}.ie8 .site:before,.ie8 #secondary{width:0px;display:none;}
+	    .featured-content{padding-left:0;}.site-content,.site-main .widecolumn{margin-left:0;}.ie8 .site-content,.ie8 .site-main .widecolumn{margin-left:0;}
+		@media screen and (min-width: 1008px) {.search-box-wrapper{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.search-box-wrapper,.featured-content{padding-left:0;}}
+		@media screen and (min-width: 1080px) {.grid-content{padding-left:0;}}
+	</style>
+    <style>.hentry{max-width: 1038px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 572px;}
+	</style>
+	
+    <style>
+		.slider .featured-content .hentry{max-height: 500px;}.slider .featured-content{max-width: 1600px;
+		margin: 0px auto;}.slider .featured-content .post-thumbnail img{max-width: 1600px;width: 100%;}
+		.slider .featured-content .post-thumbnail{background:none;}.slider .featured-content a.post-thumbnail:hover{background-color:transparent;}
+	</style>
+    <style>
+	    @media screen and (min-width: 1008px) {
+		    .grid .featured-content .hentry {
+		        width: 24.999999975%;
+	        }
+	        .grid .featured-content .hentry:nth-child( 3n+1 ) {
+		        clear: none;
+	        }
+	        .grid .featured-content .hentry:nth-child( 4n+1 ) {
+		        clear: both;
+	        }
+	    }
+	</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #333333; }
+</style>
+  <link rel="stylesheet" href="/members/styles/header.css">
+  <link rel="shortcut icon" type="image/x-png" href="/members/favicon.ico" />
+</head>
+
+<body class="error404 custom-background group-blog masthead-fixed footer-widgets">
+<header id='mitheader'>
+<nav>
+  <div id="nav-bar-left">
+    <a class="nav-page" href="http://cycling.mit.edu">Home</a>
+    <a class="nav-page" href="http://cycling.mit.edu/blog/">Blog</a>
+    <a class="nav-page" href="http://cycling.mit.edu/join/">Join</a>
+    <a class="nav-page" href="http://cycling.mit.edu/roster/">Roster</a>
+    <a class="nav-page" href="http://cycling.mit.edu/routes/">Routes</a>
+    <a class="nav-page" href="http://cycling.mit.edu/calendar/">Calendar</a>
+    <a class="nav-page" href="http://cycling.mit.edu/clothing/">Clothing</a>
+    <a class="nav-page" href="http://cycling.mit.edu/alumni/">Alumni</a>
+    <a class="nav-page" href="http://cycling.mit.edu/sponsors/">Sponsors</a>
+    <a class="nav-page" href="http://cycling.mit.edu/faq/">FAQ</a>
+    <a class="nav-page" href="http://cycling.mit.edu/contacts/">Contacts</a>
+  </div>
+  <div id='nav-bar-right'>
+    <a class="nav-page" href="https://giving.mit.edu/give/to?fundId=2720098" target="_blank">Donate</a>
+    <a class="nav-page" href="http://cycling.mit.edu/members/">Members</a>
+  </div>
+</nav>
+</header>
+<div id='mitheader-space'></div>
+
+<script type="text/javascript">
+var activateNavPage = function () {
+  // Highlight the selected page based on the URL and href
+  var page = location.href;
+  var pages = document.getElementsByClassName('nav-page');
+
+  // first check exact URL
+  var i = 0;
+  while(i < pages.length) {
+    var cur = pages[i].href;
+    if (cur === page) {
+      pages[i].className += " active";
+      return;
+    }
+    i = i + 1;
+  }
+
+  // second check prefix URL
+  var i = 1;
+  while(i < pages.length) {
+    var cur = pages[i].href;
+    if (page.indexOf(cur) === 0) {
+      pages[i].className += " active";
+      return;
+    }
+    i = i + 1;
+  }
+}
+
+activateNavPage();
+</script>
+<div id="page" class="hfeed site">
+  <div class="search-toggle">
+		<a href="#search-container" class="screen-reader-text">Search</a>
+  </div>
+  <div id="search-container" class="search-box-wrapper hide">
+	  <div class="search-box">
+		  <form role="search" method="get" class="search-form" action="http://cycling.mit.edu/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>		</div>
+	</div>
+
+  <div id='mit-site-title'>
+    <a href='http://cycling.mit.edu/blog/' rel='home'>MIT Cycling Team Blog</a>
+  </div>
+
+	<div id="main" class="site-main">
+<span style="position:absolute;visibility: collapse;">
+<a href="http://credit-n.ru/">займы на карту срочно без проверки кредитной истории</a>
+</span>
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="page-header">
+				<h1 class="page-title">Not Found</h1>
+			</header>
+
+			<div class="page-content">
+				<p>It looks like nothing was found at this location. Maybe try a search?</p>
+
+				<form role="search" method="get" class="search-form" action="http://cycling.mit.edu/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>			</div><!-- .page-content -->
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="text-3" class="widget widget_text"><h1 class="widget-title">Sponsors</h1>			<div class="textwidget"><a href="http://www.thoughtforms-corp.com/" target='_blank'><img class="aligncenter size-sponsor-thumbnail wp-image-876" alt="Thoughtforms" src="http://cycling.mit.edu/blog/wp-content/uploads/2015/10/20151015_ThoughtformsLogo.jpg" width="300" /></a> 
+
+<a href="http://exponent.com" target="_blank"><img class="aligncenter size-sponsor-thumbnail wp-image-884" alt="exponent" src="http://cycling.mit.edu/blog/wp-content/uploads/2014/03/exponent.png" width="190"  /></a></div>
+		</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h1 class="widget-title">Categories</h1><div class="tagcloud"><a href="http://cycling.mit.edu/blog/category/alumni/" class="tag-cloud-link tag-link-58 tag-link-position-1" style="font-size: 13.36pt;" aria-label="Alumni (13 items)">Alumni</a>
+<a href="http://cycling.mit.edu/blog/category/cycling-safety/" class="tag-cloud-link tag-link-179 tag-link-position-2" style="font-size: 8pt;" aria-label="Cycling Safety (2 items)">Cycling Safety</a>
+<a href="http://cycling.mit.edu/blog/category/cross/" class="tag-cloud-link tag-link-10 tag-link-position-3" style="font-size: 15.04pt;" aria-label="Cyclocross (22 items)">Cyclocross</a>
+<a href="http://cycling.mit.edu/blog/category/featuresinterviews/" class="tag-cloud-link tag-link-25 tag-link-position-4" style="font-size: 13.04pt;" aria-label="Interviews (12 items)">Interviews</a>
+<a href="http://cycling.mit.edu/blog/category/mountain/" class="tag-cloud-link tag-link-11 tag-link-position-5" style="font-size: 16.32pt;" aria-label="Mountain (32 items)">Mountain</a>
+<a href="http://cycling.mit.edu/blog/category/nationals/" class="tag-cloud-link tag-link-20 tag-link-position-6" style="font-size: 14pt;" aria-label="Nationals (16 items)">Nationals</a>
+<a href="http://cycling.mit.edu/blog/category/news/" class="tag-cloud-link tag-link-7 tag-link-position-7" style="font-size: 18.48pt;" aria-label="News (60 items)">News</a>
+<a href="http://cycling.mit.edu/blog/category/photos/" class="tag-cloud-link tag-link-16 tag-link-position-8" style="font-size: 18.24pt;" aria-label="Photos (56 items)">Photos</a>
+<a href="http://cycling.mit.edu/blog/category/race-previews/" class="tag-cloud-link tag-link-26 tag-link-position-9" style="font-size: 9.76pt;" aria-label="Race Previews (4 items)">Race Previews</a>
+<a href="http://cycling.mit.edu/blog/category/reports/" class="tag-cloud-link tag-link-6 tag-link-position-10" style="font-size: 21.76pt;" aria-label="Race Reports (157 items)">Race Reports</a>
+<a href="http://cycling.mit.edu/blog/category/rides/" class="tag-cloud-link tag-link-3 tag-link-position-11" style="font-size: 15.76pt;" aria-label="Rides (27 items)">Rides</a>
+<a href="http://cycling.mit.edu/blog/category/road/" class="tag-cloud-link tag-link-9 tag-link-position-12" style="font-size: 22pt;" aria-label="Road (169 items)">Road</a>
+<a href="http://cycling.mit.edu/blog/category/tips/" class="tag-cloud-link tag-link-173 tag-link-position-13" style="font-size: 8pt;" aria-label="Tips (2 items)">Tips</a>
+<a href="http://cycling.mit.edu/blog/category/track/" class="tag-cloud-link tag-link-8 tag-link-position-14" style="font-size: 14.56pt;" aria-label="Track (19 items)">Track</a>
+<a href="http://cycling.mit.edu/blog/category/training/" class="tag-cloud-link tag-link-23 tag-link-position-15" style="font-size: 16.88pt;" aria-label="Training (38 items)">Training</a>
+<a href="http://cycling.mit.edu/blog/category/uncategorized/" class="tag-cloud-link tag-link-1 tag-link-position-16" style="font-size: 14.24pt;" aria-label="Uncategorized (17 items)">Uncategorized</a></div>
+</aside></div><!-- #content-sidebar -->
+<div id="secondary">
+		<h2 class="site-description">To glory in the wind tunnel and beyond</h2>
+	
+	
+	</div><!-- #secondary -->
+
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+<div id="supplementary">
+	<div id="footer-sidebar" class="footer-sidebar widget-area" role="complementary">
+		<aside id="text-6" class="widget widget_text">			<div class="textwidget"><iframe height='460' width='315' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/clubs/mit-cycling-club/latest-rides/7dd0491a0878e14721477815ce55169e79209cd3?show_rides=true'></iframe>
+</div>
+		</aside><aside id="text-8" class="widget widget_text">			<div class="textwidget"><iframe height='460' width='315' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.road-results.com/widget.php?teamid=40588&w=315&h=460&dark=1&speed=0' ></iframe></div>
+		</aside><aside id="text-9" class="widget widget_text">			<div class="textwidget"><iframe height='460' width='315' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.crossresults.com/widget.php?teamid=47377&w=315&h=460&dark=1&speed=0' ></iframe>
+</div>
+		</aside><aside id="text-7" class="widget widget_text">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/mitcyclingteam" data-widget-id="365602433474371584" data-theme="dark" width="315" height="460" data-chrome="noscrollbar ">Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</div>
+		</aside>	</div><!-- #footer-sidebar -->
+</div><!-- #supplementary -->
+
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+  <script type='text/javascript' src='http://cycling.mit.edu/blog/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://cycling.mit.edu/blog/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://cycling.mit.edu/blog/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript' src='http://cycling.mit.edu/blog/wp-content/themes/twentyfourteen/js/functions.js?ver=20140616'></script>
+<script type='text/javascript' src='http://cycling.mit.edu/blog/wp-includes/js/wp-embed.min.js?ver=4.9.26'></script>
+  <footer id='mitfooter'>
+<div id="footer-bar"><a href="https://www.instagram.com/mitcycling/">instagram</a> | <a href='/donate'>donate</a> | &copy; Massachusetts Institute of Technology Cycling Club 2026</div>
+</footer>
+
+<script type="text/javascript">
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-43233304-1', 'mit.edu');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>

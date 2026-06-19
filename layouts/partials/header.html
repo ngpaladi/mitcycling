@@ -1,0 +1,54 @@
+{{ $currentPage := . }}
+<header class="site-header" role="banner">
+  <div class="header-inner">
+
+    <a href="{{ .Site.Home.RelPermalink }}" class="site-logo" aria-label="{{ .Site.Title }} home">
+      <div class="logo-mark" aria-hidden="true">MC</div>
+      <div class="logo-text">
+        MIT Cycling
+        <span>Club</span>
+      </div>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}"
+         {{ if $currentPage.IsMenuCurrent "main" . }}class="active" aria-current="page"{{ end }}>
+        {{ .Name }}
+      </a>
+      {{ end }}
+    </nav>
+
+    <div class="header-cta">
+      {{ range .Site.Menus.cta }}
+      <a href="{{ .URL }}" class="btn btn-primary btn-sm"
+         {{ if .Params.external }}target="_blank" rel="noopener"{{ end }}>
+        {{ .Name }}
+      </a>
+      {{ end }}
+    </div>
+
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+      <svg class="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/>
+      </svg>
+      <svg class="icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+
+  </div>
+</header>
+
+<!-- Mobile navigation -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" role="navigation">
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+  <div class="mobile-nav-divider"></div>
+  <div class="mobile-nav-cta">
+    {{ range .Site.Menus.cta }}
+    <a href="{{ .URL }}" class="btn btn-primary">{{ .Name }}</a>
+    {{ end }}
+  </div>
+</nav>

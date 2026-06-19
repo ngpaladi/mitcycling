@@ -1,0 +1,231 @@
+# Route data from cycling.mit.edu/routes — Strava IDs extracted from routes.json
+# Embeds render at strava.com/routes/<strava_route_id>/embed
+
+- category: "Short & Medium Road Rides"
+  description: "Weekday rides and quick weekend spins out of campus."
+  routes:
+    - name: "Coffee Ride"
+      strava_route_id: "9387797"
+      distance: "24 mi"
+      elevation: "700 ft"
+      description: >
+        Ride around Mystic Lakes to Lexington, which has coffee stop options.
+
+    - name: "Minuteman to Bedford"
+      strava_route_id: "9388122"
+      distance: "29 mi"
+      elevation: "600 ft"
+      description: >
+        Once you make it to Davis Square, you're almost exclusively on bike paths
+        with no cars. Often busy with runners and walkers.
+
+    - name: "Walden Pond"
+      strava_route_id: "9388935"
+      distance: "36 mi"
+      elevation: "1,500 ft"
+      description: >
+        Out to Concord and Walden Pond — where you can swim.
+
+    - name: "Dover Loop"
+      strava_route_id: "9395934"
+      distance: "40 mi"
+      elevation: "2,100 ft"
+      description: >
+        Approx 65k of undulating roads. Usually not much traffic on weekends.
+
+    - name: "Weston, Sudbury, and Lincoln"
+      strava_route_id: "9402602"
+      distance: "42 mi"
+      elevation: "2,000 ft"
+      description: >
+        A ride through the quiet marshlands of Sudbury and woods of Lincoln.
+        Water Row and Great Meadows NWR are particularly scenic.
+
+    - name: "Great Brook Farm"
+      strava_route_id: "9388882"
+      distance: "54 mi"
+      elevation: "2,100 ft"
+      description: >
+        Lots of quiet rolling roads and an ice cream opportunity at
+        Great Brook Farm State Park.
+
+    - name: "Sherborn"
+      strava_route_id: "3137851337044773250"
+      distance: "64 mi"
+      elevation: "3,100 ft"
+      description: >
+        A nice longer option to the south of Boston. Rolling hills on completely
+        paved roads. Commuting out during rush hour can be frustrating but the
+        ride itself is great.
+
+    - name: "Harvard"
+      strava_route_id: "9388185"
+      distance: "70 mi"
+      elevation: "2,800 ft"
+      description: >
+        Metric century to Harvard, MA. Coffee and restroom stops in Concord and
+        Harvard. Includes a nice longish climb.
+
+    - name: "New Hampshire to Harvard"
+      strava_route_id: "3137852504747715802"
+      distance: "90 mi"
+      elevation: "3,700 ft"
+      description: >
+        Duck into New Hampshire, then ride back down the Nashua River Rail Trail
+        (nearly 15 miles of protected bike path) before returning via Concord.
+
+    - name: "Heart Shaped Boxford"
+      strava_route_id: "3137853059639910618"
+      distance: "95 mi"
+      elevation: "3,900 ft"
+      description: >
+        Up to Boxford and back down the coast. Some gravel around mile 50 but
+        short and doable on a road bike. The commute through Wakefield can be
+        challenging during rush hour.
+
+- category: "Century Rides"
+  description: "All-day efforts. Bring food, check the weather."
+  routes:
+    - name: "Wachusett Reservoir"
+      strava_route_id: "9542137"
+      distance: "102 mi"
+      elevation: "5,300 ft"
+      description: >
+        Quiet roads and rolling hills through Harvard and around Wachusett Reservoir.
+
+    - name: "Wachusett Mountain"
+      strava_route_id: "9542075"
+      distance: "114 mi"
+      elevation: "7,400 ft"
+      description: >
+        Century that includes a climb up 2,000-ft Wachusett Mountain in the middle.
+
+    - name: "Rockport"
+      strava_route_id: "9789659"
+      distance: "118 mi"
+      elevation: "5,000 ft"
+      description: >
+        Quiet route with rolling hills out to the sea near Rockport, north of Boston.
+        Avoid buying lunch in the touristy area at the turnaround — not much light
+        food there.
+
+    - name: "Provincetown"
+      strava_route_id: "9789544"
+      distance: "127 mi"
+      elevation: "5,300 ft"
+      description: >
+        One-way along Cape Cod to Provincetown, including 14 miles of the Cape Cod
+        Rail Trail. Catch the ferry back to Boston from Provincetown.
+
+- category: "Mixed Terrain"
+  description: "Gravel and dirt roads reachable from campus. Road bikes welcome on the flagged route."
+  routes:
+    - name: "Mixed Terrain to Concord"
+      strava_route_id: "9563816"
+      distance: "41 mi"
+      elevation: "1,200 ft"
+      description: >
+        A road-bike-friendly mixed-terrain route out to Concord and back.
+        Most of the return is on the Minuteman bike path.
+
+- category: "Mountain Bike & CX"
+  description: "Local trails. Road bikes not recommended unless noted."
+  routes:
+    - name: "Beaver Brook / Rock Meadow Trails"
+      strava_route_id: "9396196"
+      distance: "19 mi"
+      elevation: "1,000 ft"
+      description: >
+        Trails and climbing in the Beaver Brook and Rock Meadow area.
+        Great for CX and MTB. Road bikes not recommended.
+
+    - name: "Fells Green Loop"
+      strava_route_id: "9542330"
+      distance: "20 mi"
+      elevation: "1,300 ft"
+      description: >
+        The mountain bike loop marked by green blazes or bike symbols — mostly
+        fire roads with some singletrack. Rocky trails throughout the Fells with
+        many technical sections.
+
+    - name: "Cutler Park Blue Heron Loop"
+      strava_route_id: "9542353"
+      distance: "27 mi"
+      elevation: "1,200 ft"
+      description: >
+        Singletrack along the Charles river marshlands. Fast and flowy with long
+        boardwalks through the marshes. Great for beginner MTB riders; advanced
+        riders will have a blast too.
+
+    - name: "Trails to and from Concord"
+      strava_route_id: "9756043"
+      distance: "49 mi"
+      elevation: "2,000 ft"
+      description: >
+        Great for CX bikes — favors dirt roads and trails wherever possible.
+        Some areas have more trails to explore; be ready for an adventure in
+        overgrown sections. Road bikes not recommended.
+
+- category: "Flat Interval Loops"
+  description: "Good stretches for tempo work, TT prep, and threshold efforts."
+  routes:
+    - name: "Brookline Loop"
+      strava_route_id: "9402846"
+      distance: "14 mi"
+      elevation: "700 ft"
+      description: >
+        4.0-mile loop around a golf course in Brookline.
+
+    - name: "Mystic Loop"
+      strava_route_id: "9388970"
+      distance: "16 mi"
+      elevation: "400 ft"
+      description: >
+        5.0-mile loop around Mystic Lakes.
+
+    - name: "Spot Pond Loop"
+      strava_route_id: "9389034"
+      distance: "19 mi"
+      elevation: "800 ft"
+      description: >
+        4.7-mile loop around Spot Pond in Middlesex Fells.
+
+    - name: "Blue Hills"
+      strava_route_id: "9604565"
+      distance: "32 mi"
+      elevation: "1,700 ft"
+      description: >
+        Rolly TT loop (~7 mi) with a single stoplight. Emptiest during workdays
+        and weekends — avoid rush hour at all costs. Nice bike paths on the route out.
+
+    - name: "CBTT"
+      strava_route_id: "9402696"
+      distance: "49 mi"
+      elevation: "1,600 ft"
+      description: >
+        A rolling 10.5-mile loop. The Charlie Baker Time Trial series runs here
+        on Wednesdays in summer.
+
+- category: "Hill Intervals"
+  description: "Classic climbs near Boston for training and fitness testing."
+  routes:
+    - name: "Summit Ave Hill"
+      strava_route_id: "9402869"
+      distance: "7 mi"
+      elevation: "400 ft"
+      description: >
+        Short and sweet — 0.3 miles at 10% grade.
+
+    - name: "Eastern Ave Hill"
+      strava_route_id: "9402930"
+      distance: "15 mi"
+      elevation: "600 ft"
+      description: >
+        0.7 miles at 7% grade. Lots of traffic during weekday school mornings (~8am).
+
+    - name: "Arlington Hills"
+      strava_route_id: "9542296"
+      distance: "26 mi"
+      elevation: "2,000 ft"
+      description: >
+        Lots of punchy hills close to campus.

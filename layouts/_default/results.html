@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">Racing</div>
+    <h1>Race Results</h1>
+    <p>Recent results for MIT Cycling, fetched nightly from BikeReg.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    {{ $live := hugo.Data.race_results_live }}
+    {{ if $live }}
+
+    <div class="results-table-wrap">
+      <table class="results-table" aria-label="MIT Cycling race results">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Race</th>
+            <th>Rider</th>
+            <th>Category</th>
+            <th>Place</th>
+            <th>Finish</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $live }}
+          <tr>
+            <td style="white-space:nowrap;color:var(--gray-500);font-size:.85rem">{{ .date }}</td>
+            <td class="result-race">
+              <a href="{{ .race_url }}" target="_blank" rel="noopener" style="color:var(--crimson)">{{ .race }}</a>
+            </td>
+            <td style="font-weight:500">{{ .rider }}</td>
+            <td style="color:var(--gray-500);font-size:.88rem">{{ .category }}</td>
+            <td>
+              {{ $p := int .place }}
+              <span class="result-place {{ if eq $p 1 }}result-place--1{{ else if eq $p 2 }}result-place--2{{ else if eq $p 3 }}result-place--3{{ end }}">
+                {{ if eq $p 1 }}🥇{{ else if eq $p 2 }}🥈{{ else if eq $p 3 }}🥉{{ else }}{{ $p }}{{ end }}
+              </span>
+            </td>
+            <td style="color:var(--gray-500);font-size:.85rem">{{ .finish }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+
+    {{ else }}
+    <div style="text-align:center;padding:4rem 0;color:var(--gray-500)">
+      <p>Results will appear here as the season progresses.</p>
+      <p style="margin-top:.5rem">Check the <a href="{{ (site.GetPage "/blog/").RelPermalink }}" style="color:var(--crimson)">blog</a> for race reports.</p>
+    </div>
+    {{ end }}
+
+    <div style="margin-top:2.5rem;padding:1.5rem;background:var(--gray-100);border-radius:var(--radius);font-size:.88rem;color:var(--gray-500)">
+      View the full team results on
+      <a href="https://results.bikereg.com/team/40588" target="_blank" rel="noopener" style="color:var(--crimson)">BikeReg</a>.
+    </div>
+
+  </div>
+</section>
+
+{{ end }}

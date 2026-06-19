@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">Rides</div>
+    <h1>Routes</h1>
+    <p>Most rides start at MIT Student Center or Porter Square Dunkin' Donuts.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    {{ range hugo.Data.routes }}
+    <div class="routes-category">
+      <div class="results-season-title" style="display:flex;align-items:baseline;gap:1rem;margin-bottom:.25rem">
+        {{ .category }}
+      </div>
+      {{ with .description }}
+      <p style="color:var(--gray-500);font-size:.9rem;margin-bottom:1.75rem">{{ . }}</p>
+      {{ end }}
+
+      <div class="routes-list">
+        {{ range .routes }}
+        <div class="route-card">
+          {{ if .strava_route_id }}
+          <div class="route-embed">
+            <iframe
+              allowtransparency="true" frameborder="0" scrolling="no"
+              src="https://strava-embeds.com/route/{{ .strava_route_id }}"
+              width="100%" height="405"
+              title="{{ .name }} route map"
+              loading="lazy"
+            ></iframe>
+          </div>
+          {{ end }}
+          <!-- <div class="route-info">
+            <div class="route-header">
+              <h3 class="route-name">{{ .name }}</h3>
+              <div class="route-stats">
+                {{ with .distance }}<span class="route-stat">{{ . }}</span>{{ end }}
+                {{ with .elevation }}<span class="route-stat route-stat--elev">↑ {{ . }}</span>{{ end }}
+                {{ if .strava_route_id }}
+                <a href="https://www.strava.com/routes/{{ .strava_route_id }}" target="_blank" rel="noopener" class="route-strava-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/></svg>
+                  View on Strava
+                </a>
+                {{ end }}
+              </div>
+            </div>
+          </div> -->
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+
+{{ end }}

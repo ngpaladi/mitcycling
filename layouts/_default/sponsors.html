@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">Support</div>
+    <h1>Our Sponsors</h1>
+    <p>The partners who make MIT Cycling possible.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <div class="sponsor-collage">
+      {{ range hugo.Data.sponsors }}
+      {{ $tierSlug := .tier | lower | replaceRE " " "-" }}
+      {{ if .url }}
+      <a href="{{ .url }}" target="_blank" rel="noopener"
+         class="sponsor-tile sponsor-tile--{{ $tierSlug }}"
+         aria-label="{{ .name }}">
+      {{ else }}
+      <div class="sponsor-tile sponsor-tile--{{ $tierSlug }}">
+      {{ end }}
+        <span class="sponsor-tier-badge">{{ .tier }}</span>
+        <div class="sponsor-tile-logo">
+          {{ if .logo }}
+          <img src="{{ partial "img-src.html" .logo }}" alt="{{ .name }}">
+          {{ else }}
+          <span class="sponsor-logo-text">{{ .name }}</span>
+          {{ end }}
+        </div>
+        <div class="sponsor-tile-hover">
+          <span class="sponsor-hover-name">{{ .name }}</span>
+          {{ if .url }}<span class="sponsor-hover-arrow">↗</span>{{ end }}
+        </div>
+      {{ if .url }}</a>{{ else }}</div>{{ end }}
+      {{ end }}
+    </div>
+
+  </div>
+
+  <div class="container" style="margin-top:3rem">
+    <div style="background:var(--navy);border-radius:var(--radius-xl);padding:3rem;text-align:center;color:white">
+      <h2 style="font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;margin-bottom:.75rem">Become a Sponsor</h2>
+      <p style="color:rgba(255,255,255,.75);max-width:44ch;margin:0 auto 1.5rem;font-size:.95rem">
+        Interested in supporting MIT Cycling? Reach out to our sponsorship team.
+      </p>
+      <a href="mailto:{{ .Site.Params.sponsorshipEmail | default .Site.Params.officersEmail }}" class="btn btn-outline">
+        Get in Touch
+      </a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

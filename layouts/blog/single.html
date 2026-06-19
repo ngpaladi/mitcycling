@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+<div class="post-header">
+  <div class="post-header-bg" aria-hidden="true"></div>
+  <div class="container">
+    <div class="post-meta-top">
+      {{ range .Params.categories }}
+      <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" class="tag tag--{{ . | lower | replaceRE "[^a-z]" "-" }}">
+        {{ . }}
+      </a>
+      {{ end }}
+    </div>
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-byline">
+      {{ with .Params.author }}
+      <span>By <span class="post-byline-author">{{ . }}</span></span>
+      {{ end }}
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      <span>{{ .ReadingTime }} min read</span>
+    </div>
+  </div>
+</div>
+
+{{ with .Params.image }}
+<div style="background:var(--gray-200);max-height:480px;overflow:hidden">
+  <img src="{{ . }}" alt="" style="width:100%;max-height:480px;object-fit:cover;display:block">
+</div>
+{{ end }}
+
+<article class="post-body">
+  {{ .Content }}
+
+  <!-- Tags -->
+  {{ with .Params.tags }}
+  <div style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--gray-200)">
+    <span class="text-label text-muted" style="margin-right:.75rem">Tags:</span>
+    {{ range . }}
+    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag" style="margin-right:.3rem">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+</article>
+
+<!-- Related posts -->
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<section class="section section--gray" style="padding-block:3rem">
+  <div class="container">
+    <h2 class="section-title" style="font-size:1.6rem;margin-bottom:1.5rem">More from the Blog</h2>
+    <div class="blog-grid">
+      {{ range . }}
+      <a href="{{ .RelPermalink }}" class="blog-card">
+        <div class="blog-card-image">
+          {{ if .Params.image }}
+          <img src="{{ partial "img-src.html" .Params.image }}" alt="" loading="lazy">
+          {{ else }}
+          <div class="blog-card-image-placeholder"></div>
+          {{ end }}
+        </div>
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            <span class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+            {{ range first 1 .Params.categories }}
+            <span class="tag tag--{{ . | lower | replaceRE "[^a-z]" "-" }}">{{ . }}</span>
+            {{ end }}
+          </div>
+          <h3 class="blog-card-title">{{ .Title }}</h3>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

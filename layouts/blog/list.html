@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-label">MIT Cycling</div>
+    <h1>Blog</h1>
+    <p>Race reports, training recaps, and team adventures from the saddle.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="blog-list-layout">
+
+      <!-- Posts -->
+      <div>
+        {{ if .Params.category }}
+        <div style="margin-bottom:1.5rem">
+          <span class="tag tag--{{ .Params.category | lower | replaceRE "[^a-z]" "-" }}" style="font-size:.85rem;padding:.3rem .8rem">
+            {{ .Params.category }}
+          </span>
+          <a href="{{ (site.GetPage "/blog/").RelPermalink }}" style="color:var(--gray-500);font-size:.85rem;margin-left:.75rem">← All posts</a>
+        </div>
+        {{ end }}
+
+        <div class="blog-grid" style="grid-template-columns:1fr">
+          {{ range .Paginator.Pages }}
+          <a href="{{ .RelPermalink }}" class="blog-card" style="flex-direction:row;max-height:180px">
+            <div class="blog-card-image" style="aspect-ratio:4/3;width:220px;flex-shrink:0">
+              {{ if .Params.image }}
+              <img src="{{ partial "img-src.html" .Params.image }}" alt="" loading="lazy">
+              {{ else }}
+              <div class="blog-card-image-placeholder"></div>
+              {{ end }}
+            </div>
+            <div class="blog-card-body" style="justify-content:center">
+              <div class="blog-card-meta">
+                <span class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                {{ range first 2 .Params.categories }}
+                <span class="tag tag--{{ . | lower | replaceRE "[^a-z]" "-" }}">{{ . }}</span>
+                {{ end }}
+              </div>
+              <h2 class="blog-card-title" style="font-size:1.2rem">{{ .Title }}</h2>
+              <p class="blog-card-summary" style="-webkit-line-clamp:2">{{ .Content | plainify | truncate 160 }}</p>
+            </div>
+          </a>
+          {{ else }}
+          <p style="color:var(--gray-500);padding:2rem 0">No posts yet. Check back soon!</p>
+          {{ end }}
+        </div>
+
+        <!-- Pagination -->
+        {{ if .Paginator.HasPrev | or .Paginator.HasNext }}
+        <nav class="flex gap-2" style="margin-top:3rem;justify-content:center" aria-label="Pagination">
+          {{ if .Paginator.HasPrev }}
+          <a href="{{ .Paginator.Prev.URL }}" class="btn btn-outline" style="color:var(--navy);border-color:var(--gray-300)">← Newer</a>
+          {{ end }}
+          <span style="display:flex;align-items:center;color:var(--gray-500);font-size:.9rem">
+            Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+          </span>
+          {{ if .Paginator.HasNext }}
+          <a href="{{ .Paginator.Next.URL }}" class="btn btn-outline" style="color:var(--navy);border-color:var(--gray-300)">Older →</a>
+          {{ end }}
+        </nav>
+        {{ end }}
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="blog-sidebar">
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget-title">Categories</h3>
+          <nav class="sidebar-cats">
+            {{ range .Site.Taxonomies.categories.ByCount }}
+            <a href="{{ .Page.RelPermalink }}" class="sidebar-cat">
+              {{ .Page.Title }}
+              <span class="sidebar-cat-count">{{ .Count }}</span>
+            </a>
+            {{ end }}
+          </nav>
+        </div>
+
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget-title">Race Results</h3>
+          <p style="font-size:.88rem;color:var(--gray-500);margin-bottom:1rem">
+            See how we've placed across all ECCC disciplines.
+          </p>
+          <a href="{{ (site.GetPage "/results/").RelPermalink }}" class="btn btn-primary" style="width:100%;justify-content:center">View Results</a>
+        </div>
+
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget-title">Follow Us</h3>
+          <div class="flex flex-wrap gap-1">
+            <a href="https://instagram.com/{{ .Site.Params.instagram }}" target="_blank" rel="noopener"
+               class="btn btn-sm" style="background:var(--gray-100);color:var(--navy);border:none">
+              📷 Instagram
+            </a>
+            <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank" rel="noopener"
+               class="btn btn-sm" style="background:var(--gray-100);color:var(--navy);border:none">
+              𝕏 Twitter
+            </a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+{{ end }}
