@@ -34,13 +34,13 @@
               {{ end }}
             </div>
             <div class="blog-card-body" style="justify-content:center">
+              <h2 class="blog-card-title" style="font-size:1.2rem">{{ .Title }}</h2>
               <div class="blog-card-meta">
                 <span class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
                 {{ range first 2 .Params.categories }}
                 <span class="tag tag--{{ . | lower | replaceRE "[^a-z]" "-" }}">{{ . }}</span>
                 {{ end }}
               </div>
-              <h2 class="blog-card-title" style="font-size:1.2rem">{{ .Title }}</h2>
               <p class="blog-card-summary" style="-webkit-line-clamp:2">{{ .Content | plainify | truncate 160 }}</p>
             </div>
           </a>

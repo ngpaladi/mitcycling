@@ -59,13 +59,13 @@
           {{ end }}
         </div>
         <div class="blog-card-body">
+          <h3 class="blog-card-title">{{ .Title }}</h3>
           <div class="blog-card-meta">
             <span class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
             {{ range first 1 .Params.categories }}
             <span class="tag tag--{{ . | lower | replaceRE "[^a-z]" "-" }}">{{ . }}</span>
             {{ end }}
           </div>
-          <h3 class="blog-card-title">{{ .Title }}</h3>
         </div>
       </a>
       {{ end }}

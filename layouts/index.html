@@ -4,13 +4,13 @@
 <section class="hero" aria-label="Welcome to MIT Cycling Club">
   <div class="hero-left">
     <div class="container">
-      <div class="hero-eyebrow">Est. 1981</div>
+      <!-- <div class="hero-eyebrow">Est. 1981</div> -->
       <h1 class="hero-title">
         MIT<br>Cycling<br><span class="accent">Club</span>
       </h1>
       <p class="hero-sub">
-        MIT's competitive cycling team — racing road, track, cyclocross, mountain, and gravel
-        across the Northeast and beyond since 1981.
+        MIT's cycling team — riding and racing road, track, cyclocross, mountain, and gravel
+        across New England and beyond since 1981.
       </p>
       <div class="hero-actions">
         <a href='{{ (site.GetPage "/join/").RelPermalink }}' class="btn btn-primary btn-lg">Join the Team</a>
@@ -83,7 +83,7 @@
     {{ $recent := first 4 $posts }}
     <div class="blog-grid blog-grid--featured">
       {{ range $i, $post := $recent }}
-      <a href="{{ $post.RelPermalink }}" class="blog-card {{ if eq $i 0 }}blog-card--featured{{ end }} reveal reveal-delay-{{ $i }}">
+      <a href="{{ $post.RelPermalink }}" class="blog-card reveal reveal-delay-{{ $i }}">
         <div class="blog-card-image">
           {{ if $post.Params.image }}
           <img src="{{ partial "img-src.html" $post.Params.image }}" alt="" loading="{{ if eq $i 0 }}eager{{ else }}lazy{{ end }}">
@@ -94,13 +94,13 @@
           {{ end }}
         </div>
         <div class="blog-card-body">
+          <h3 class="blog-card-title">{{ $post.Title }}</h3>
           <div class="blog-card-meta">
             <span class="blog-card-date">{{ $post.Date.Format "Jan 2, 2006" }}</span>
             {{ range first 2 $post.Params.categories }}
             <span class="tag tag--{{ . | lower | replaceRE "[^a-z]" "-" }}">{{ . }}</span>
             {{ end }}
           </div>
-          <h3 class="blog-card-title">{{ $post.Title }}</h3>
           <p class="blog-card-summary">{{ $post.Content | plainify | truncate 160 }}</p>
           <div class="blog-card-footer">
             <span class="blog-card-author">By {{ $post.Params.author | default "MIT Cycling" }}</span>

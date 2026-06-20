@@ -567,11 +567,6 @@ section.section--lg { padding-block: 7rem; }
   font-weight: 500;
 }
 
-/* Featured card adjustments */
-.blog-card--featured .blog-card-title {
-  font-size: 1.7rem;
-}
-
 /* === TAGS / CATEGORIES === */
 .tag {
   display: inline-flex;
@@ -591,10 +586,10 @@ section.section--lg { padding-block: 7rem; }
 .tag:hover { background: var(--gray-200); }
 .tag--road { background: rgba(163,31,52,.1); color: var(--crimson-dark); }
 .tag--track { background: rgba(200,150,60,.12); color: #9a6e20; }
-.tag--cyclocross { background: rgba(163,31,52,.1); color: var(--crimson-dark); }
+.tag--cyclocross { background: rgba(120,80,40,.1); color: #6b4520; }
 .tag--mountain { background: rgba(34,107,55,.1); color: #1a5e2e; }
-.tag--training { background: rgba(80,80,80,.1); color: var(--gray-700); }
-.tag--gravel { background: rgba(120,80,40,.1); color: #6b4520; }
+.tag--training { background: rgba(21, 61, 87, 0.1); color: var(--gray-700); }
+.tag--gravel { background: rgba(80,80,80,.1); color: var(--gray-700); }
 
 /* === RACE RESULTS === */
 .results-filters {

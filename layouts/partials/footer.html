@@ -33,32 +33,30 @@
       <div>
         <h3 class="footer-col-title">Racing</h3>
         <nav class="footer-links">
-          <a href="{{ (site.GetPage "/results/").RelPermalink }}">Race Results</a>
-          <a href="{{ (site.GetPage "/blog/").RelPermalink }}?category=Race+Reports">Race Reports</a>
-          <a href="{{ (site.GetPage "/roster/").RelPermalink }}">Team Roster</a>
-          <a href="{{ (site.GetPage "/blog/").RelPermalink }}?category=Nationals">Nationals</a>
+          <a href='{{ (site.GetPage "/results/").RelPermalink }}'>Race Results</a>
+          <a href='{{ (site.GetPage "/blog/").RelPermalink }}?category=Race+Reports'>Race Reports</a>
+          <a href='{{ (site.GetPage "/roster/").RelPermalink }}'>Team Roster</a>
+          <a href='{{ (site.GetPage "/blog/").RelPermalink }}?category=Nationals'>Nationals</a>
         </nav>
       </div>
 
       <div>
         <h3 class="footer-col-title">Club</h3>
         <nav class="footer-links">
-          <a href="{{ (site.GetPage "/join/").RelPermalink }}">Join the Team</a>
-          <a href="{{ (site.GetPage "/routes/").RelPermalink }}">Routes</a>
-          <a href="{{ (site.GetPage "/sponsors/").RelPermalink }}">Sponsors</a>
-          <a href="{{ (site.GetPage "/faq/").RelPermalink }}">FAQ</a>
-          <a href="{{ (site.GetPage "/contact/").RelPermalink }}">Contact</a>
+          <a href='{{ (site.GetPage "/join/").RelPermalink }}'>Join the Team</a>
+          <a href='{{ (site.GetPage "/routes/").RelPermalink }}'>Routes</a>
+          <a href='{{ (site.GetPage "/sponsors/").RelPermalink }}'>Sponsors</a>
+          <a href='{{ (site.GetPage "/faq/").RelPermalink }}'>FAQ</a>
         </nav>
       </div>
 
       <div>
         <h3 class="footer-col-title">Connect</h3>
         <nav class="footer-links">
-          <a href="https://instagram.com/{{ .Site.Params.instagram }}" target="_blank" rel="noopener">@mitcycling</a>
-          <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank" rel="noopener">@mitcyclingteam</a>
-          <a href="mailto:{{ .Site.Params.email }}">cycling-club@mit.edu</a>
+          <a href='{{ (site.GetPage "/contact/").RelPermalink }}'>Contact</a>
+          <a href="https://instagram.com/{{ .Site.Params.instagram }}" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank" rel="noopener">Twitter</a>
           <a href="{{ .Site.Params.donateURL }}" target="_blank" rel="noopener">Donate</a>
-          <a href="https://www.eccc.cycling" target="_blank" rel="noopener">ECCC Website</a>
         </nav>
       </div>
 
@@ -67,8 +65,6 @@
     <div class="footer-bottom">
       <span>© {{ now.Year }} MIT Cycling Club. All rights reserved.</span>
       <span>
-        <a href="https://www.eccc.cycling" target="_blank" rel="noopener">ECCC</a>
-        &nbsp;·&nbsp;
         <a href="https://clubsports.mit.edu" target="_blank" rel="noopener">MIT Club Sports</a>
       </span>
     </div>
