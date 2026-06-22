@@ -2,6 +2,7 @@
 <html lang="{{ .Site.Language.Locale }}">
 <head>
   {{ partial "head.html" . }}
+  {{ block "head_extra" . }}{{ end }}
 </head>
 <body>
   {{ partial "header.html" . }}
@@ -11,5 +12,6 @@
   {{ partial "footer.html" . }}
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" defer></script>
+  {{ block "scripts_extra" . }}{{ end }}
 </body>
 </html>

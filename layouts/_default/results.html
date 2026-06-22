@@ -4,14 +4,16 @@
   <div class="container">
     <div class="page-header-label">Racing</div>
     <h1>Race Results</h1>
-    <p>Recent results for MIT Cycling, fetched nightly from BikeReg.</p>
+    <p>Results from the past year, with full team results available on
+      <a href="https://results.bikereg.com/team/40588" target="_blank" rel="noopener" style="color:var(--crimson)">BikeReg</a>.</p>
   </div>
 </div>
 
 <section class="section">
   <div class="container">
 
-    {{ $live := hugo.Data.race_results_live }}
+    {{ $cutoff := (now.AddDate -1 0 0).Format "2006-01-02" }}
+    {{ $live := where hugo.Data.race_results_live "date_iso" ">=" $cutoff }}
     {{ if $live }}
 
     <div class="results-table-wrap">

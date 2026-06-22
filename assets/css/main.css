@@ -686,80 +686,125 @@ section.section--lg { padding-block: 7rem; }
 .routes-category {
   margin-bottom: 3.5rem;
 }
-.routes-list {
+.routes-category-header {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  gap: 1.75rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
 }
-.route-card {
-  background: white;
+.routes-category-header:hover .results-season-title { color: var(--crimson); }
+.routes-category-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--gray-700);
+  transition: all var(--transition-md);
+}
+.routes-category.open .routes-category-icon {
+  background: var(--crimson);
+  color: white;
+  transform: rotate(45deg);
+}
+.routes-list {
+  display: none;
+}
+.routes-category.open .routes-list {
+  display: block;
+}
+#routes-map {
+  height: 460px;
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-card);
   overflow: hidden;
+  margin-bottom: 3rem;
+  background: var(--gray-100);
 }
-.route-embed {
-  line-height: 0;
+.meeting-point-icon {
+  background: transparent;
+  border: none;
+}
+.meeting-point-label {
+  font-family: var(--font-body);
+  font-size: .75rem;
+  font-weight: 600;
+  color: var(--navy);
+  background: var(--white);
+  border: none;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-card);
+  padding: .2rem .5rem;
+}
+.meeting-point-label::before { display: none; }
+.routes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 3rem;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .routes-grid { grid-template-columns: 1fr; }
+}
+.route-row {
   border-bottom: 1px solid var(--gray-200);
 }
-.route-embed iframe {
-  display: block;
-  border: none;
+.route-name-btn {
   width: 100%;
-}
-.route-info {
-  padding: 1.25rem 1.5rem;
-}
-.route-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  flex-wrap: wrap;
-  margin-bottom: .5rem;
+  background: none;
+  border: none;
+  padding: .6rem 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
 }
-.route-name {
-  font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 800;
+.route-name-text {
+  font-weight: 600;
+  font-size: .95rem;
   color: var(--navy);
-  margin: 0;
+  transition: color var(--transition);
 }
-.route-stats {
-  display: flex;
-  align-items: center;
-  gap: .75rem;
+.route-name-btn:hover .route-name-text { color: var(--crimson); }
+.route-row.active .route-name-text { color: var(--crimson); }
+.route-name-stats {
   flex-shrink: 0;
-  flex-wrap: wrap;
-}
-.route-stat {
-  font-family: var(--font-display);
-  font-size: .82rem;
-  font-weight: 700;
-  letter-spacing: .06em;
   color: var(--gray-500);
-  background: var(--gray-100);
-  padding: .2rem .65rem;
-  border-radius: var(--radius-sm);
+  font-size: .8rem;
   white-space: nowrap;
 }
-.route-stat--elev { color: #1a5e2e; background: rgba(34,107,55,.1); }
 .route-desc {
   color: var(--gray-500);
-  font-size: .9rem;
-  line-height: 1.65;
-  margin: 0 0 .75rem;
+  font-size: .88rem;
+  line-height: 1.6;
+  margin: 0 0 1rem;
 }
-.route-strava-link {
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  color: #FC4C02;
+.route-desc p { margin: 0 0 .5rem; }
+.route-desc-links {
+  display: flex;
+  gap: 1.25rem;
+}
+.route-desc-links a {
+  color: var(--crimson);
   font-size: .82rem;
   font-weight: 600;
   text-decoration: none;
-  transition: opacity var(--transition);
 }
-.route-strava-link:hover { opacity: .75; }
+.route-desc-links a:hover { opacity: .75; }
 
 /* === LIVE RESULTS FEEDS === */
 .results-live-feeds {

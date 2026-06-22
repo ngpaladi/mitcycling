@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFAQ();
   initResultsFilter();
   initRosterFilter();
+  initRoutesCollapse();
 });
 
 // Sticky header transparency
@@ -100,6 +101,17 @@ function initResultsFilter() {
         const visibleRows = season.querySelectorAll('tr[data-discipline]:not([style*="none"])');
         season.style.display = visibleRows.length ? '' : 'none';
       });
+    });
+  });
+}
+
+// Routes category collapse (collapsed by default)
+function initRoutesCollapse() {
+  document.querySelectorAll('.routes-category-header').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const category = btn.closest('.routes-category');
+      const isOpen = category.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen);
     });
   });
 }

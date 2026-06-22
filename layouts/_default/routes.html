@@ -1,61 +1,70 @@
+{{ define "head_extra" }}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+{{ end }}
+
 {{ define "main" }}
 
 <div class="page-header">
   <div class="container">
     <div class="page-header-label">Rides</div>
     <h1>Routes</h1>
-    <p>Most rides start at MIT Student Center or Porter Square Dunkin' Donuts.</p>
+    <p>Most rides start at MIT Student Center or Porter Square Dunkin' Donuts. Click a route below to plot it on the map.</p>
   </div>
 </div>
 
 <section class="section">
   <div class="container">
 
-    {{ range hugo.Data.routes }}
-    <div class="routes-category">
-      <div class="results-season-title" style="display:flex;align-items:baseline;gap:1rem;margin-bottom:.25rem">
-        {{ .category }}
-      </div>
-      {{ with .description }}
-      <p style="color:var(--gray-500);font-size:.9rem;margin-bottom:1.75rem">{{ . }}</p>
-      {{ end }}
+    <div id="routes-map"></div>
 
-      <div class="routes-list">
-        {{ range .routes }}
-        <div class="route-card">
-          {{ if .strava_route_id }}
-          <div class="route-embed">
-            <iframe
-              allowtransparency="true" frameborder="0" scrolling="no"
-              src="https://strava-embeds.com/route/{{ .strava_route_id }}"
-              width="100%" height="405"
-              title="{{ .name }} route map"
-              loading="lazy"
-            ></iframe>
-          </div>
-          {{ end }}
-          <!-- <div class="route-info">
-            <div class="route-header">
-              <h3 class="route-name">{{ .name }}</h3>
-              <div class="route-stats">
-                {{ with .distance }}<span class="route-stat">{{ . }}</span>{{ end }}
-                {{ with .elevation }}<span class="route-stat route-stat--elev">↑ {{ . }}</span>{{ end }}
-                {{ if .strava_route_id }}
-                <a href="https://www.strava.com/routes/{{ .strava_route_id }}" target="_blank" rel="noopener" class="route-strava-link">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/></svg>
-                  View on Strava
-                </a>
-                {{ end }}
+    <div class="routes-grid">
+      {{ range hugo.Data.routes }}
+      <div class="routes-category">
+        <button class="routes-category-header" type="button" aria-expanded="false">
+          <span class="results-season-title" style="margin-bottom:.25rem">{{ .category }}</span>
+          <span class="routes-category-icon" aria-hidden="true">+</span>
+        </button>
+        {{ with .description }}
+        <p style="color:var(--gray-500);font-size:.9rem;margin-bottom:1.25rem">{{ . }}</p>
+        {{ end }}
+
+        <div class="routes-list">
+          {{ range .routes }}
+          <div class="route-row">
+            <button class="route-name-btn" type="button" data-route-id="{{ .strava_route_id }}">
+              <span class="route-name-text">{{ .name }}</span>
+              <span class="route-name-stats">{{ with .distance }}{{ . }}{{ end }}{{ with .elevation }} · ↑ {{ . }}{{ end }}</span>
+            </button>
+            <div class="route-desc" hidden>
+              {{ with .description }}<p>{{ . }}</p>{{ end }}
+              <div class="route-desc-links">
+                <a href="https://www.strava.com/routes/{{ .strava_route_id }}" target="_blank" rel="noopener">Strava Route</a>
+                <a href="{{ printf "gpx/%s.gpx" .strava_route_id | relURL }}" download>GPX</a>
               </div>
             </div>
-          </div> -->
+          </div>
+          {{ end }}
         </div>
-        {{ end }}
       </div>
+      {{ end }}
     </div>
-    {{ end }}
 
   </div>
 </section>
 
+{{ $allRoutes := slice }}
+{{ range hugo.Data.routes }}
+  {{ range .routes }}
+    {{ $allRoutes = $allRoutes | append (dict "id" .strava_route_id "gpx" (printf "gpx/%s.gpx" .strava_route_id | relURL)) }}
+  {{ end }}
+{{ end }}
+<script type="application/json" id="routes-data">{{ $allRoutes | jsonify | safeJS }}</script>
+
+{{ end }}
+
+{{ define "scripts_extra" }}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet-gpx@1.7.0/gpx.js"></script>
+{{ $routesMapJS := resources.Get "js/routes-map.js" | minify | fingerprint }}
+<script src="{{ $routesMapJS.RelPermalink }}" defer></script>
 {{ end }}
