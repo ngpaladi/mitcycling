@@ -31,6 +31,7 @@ jobs:
           playwright install chromium --with-deps
 
       - name: Fetch race results
+        continue-on-error: true
         run: python3 scripts/fetch_results.py
 
       - name: Setup Hugo

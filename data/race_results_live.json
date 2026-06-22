@@ -1,5 +1,105 @@
 [
   {
+    "date": "Jun 20 2026",
+    "date_iso": "2026-06-20",
+    "race": "Connecticut Masters' Games Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 4,
+    "category": "Men 60+ (40K)",
+    "finish": "4 of 13"
+  },
+  {
+    "date": "Jun 20 2026",
+    "date_iso": "2026-06-20",
+    "race": "Connecticut Masters' Games Time Trial",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 1,
+    "category": "Men 60-64 (5K)",
+    "finish": "1 of 5"
+  },
+  {
+    "date": "Jun 20 2026",
+    "date_iso": "2026-06-20",
+    "race": "Connecticut Masters' Games Time Trial",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 2,
+    "category": "Men 60-64 (10K)",
+    "finish": "2 of 4"
+  },
+  {
+    "date": "May 10 2026",
+    "date_iso": "2026-05-10",
+    "race": "2026 Collegiate Road National Championships p/b Trek",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 31,
+    "category": "Open Senior M",
+    "finish": "31 of 152"
+  },
+  {
+    "date": "May 10 2026",
+    "date_iso": "2026-05-10",
+    "race": "2026 Collegiate Road National Championships p/b Trek",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Ryan Raikman",
+    "place": 57,
+    "category": "Open Senior M",
+    "finish": "57 of 152"
+  },
+  {
+    "date": "May 9 2026",
+    "date_iso": "2026-05-09",
+    "race": "2026 Collegiate Road National Championships p/b Trek",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 30,
+    "category": "Open Club M",
+    "finish": "30 of 94"
+  },
+  {
+    "date": "May 9 2026",
+    "date_iso": "2026-05-09",
+    "race": "2026 Collegiate Road National Championships p/b Trek",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Ryan Raikman",
+    "place": 85,
+    "category": "Open Club M",
+    "finish": "85 of 94"
+  },
+  {
+    "date": "May 8 2026",
+    "date_iso": "2026-05-08",
+    "race": "2026 Collegiate Road National Championships p/b Trek",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 8,
+    "category": "Club TTT M",
+    "finish": "8 of 55"
+  },
+  {
+    "date": "May 8 2026",
+    "date_iso": "2026-05-08",
+    "race": "2026 Collegiate Road National Championships p/b Trek",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "William Lu",
+    "place": 8,
+    "category": "Club TTT M",
+    "finish": "8 of 55"
+  },
+  {
+    "date": "May 8 2026",
+    "date_iso": "2026-05-08",
+    "race": "2026 Collegiate Road National Championships p/b Trek",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Ryan Raikman",
+    "place": 8,
+    "category": "Club TTT M",
+    "finish": "8 of 55"
+  },
+  {
     "date": "Jun 9 2026",
     "date_iso": "2026-06-09",
     "race": "TNC at the Rent #2",

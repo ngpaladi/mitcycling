@@ -13,7 +13,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 TEAM_URL = "https://results.bikereg.com/team/40588"
 OUTPUT = Path(__file__).parent.parent / "data" / "race_results_live.json"
@@ -32,7 +32,10 @@ def fetch_html() -> str:
         )
         page = ctx.new_page()
         page.goto(TEAM_URL, timeout=45_000)
-        page.wait_for_load_state("networkidle")
+        try:
+            page.wait_for_selector("table.datatable1", timeout=45_000)
+        except PlaywrightTimeoutError:
+            pass  # fall through to the content check below for a clearer error
         page.wait_for_timeout(5_000)
         html = page.content()
         browser.close()
