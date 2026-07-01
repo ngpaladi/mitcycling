@@ -1,5 +1,25 @@
 [
   {
+    "date": "Jun 30 2026",
+    "date_iso": "2026-06-30",
+    "race": "TNC at the Rent #3",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 23,
+    "category": "A Race",
+    "finish": "23 of 30"
+  },
+  {
+    "date": "Jun 30 2026",
+    "date_iso": "2026-06-30",
+    "race": "TNC at the Rent #3",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 16,
+    "category": "B Race",
+    "finish": "16 of 41"
+  },
+  {
     "date": "Jun 28 2026",
     "date_iso": "2026-06-28",
     "race": "NY Capital Region Road Race &amp; NYSBRA Road Race Championship",
