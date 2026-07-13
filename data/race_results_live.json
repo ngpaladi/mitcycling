@@ -1,5 +1,25 @@
 [
   {
+    "date": "Jul 12 2026",
+    "date_iso": "2026-07-12",
+    "race": "Tri-State Cycling Woonie Crit",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 13,
+    "category": "Men 4/5 &amp; Jr 15-18",
+    "finish": "13 of 44"
+  },
+  {
+    "date": "Jul 12 2026",
+    "date_iso": "2026-07-12",
+    "race": "Tri-State Cycling Woonie Crit",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 23,
+    "category": "Men 4/5 &amp; Jr 15-18",
+    "finish": "23 of 44"
+  },
+  {
     "date": "Jun 30 2026",
     "date_iso": "2026-06-30",
     "race": "TNC at the Rent #3",
