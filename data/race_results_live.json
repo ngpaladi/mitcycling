@@ -1,5 +1,65 @@
 [
   {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Yaocheng Tian",
+    "place": 5,
+    "category": "Cat 5",
+    "finish": "5 of 19"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 9,
+    "category": "Cat 5",
+    "finish": "9 of 19"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 13,
+    "category": "Cat 5",
+    "finish": "13 of 19"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Gabriela Friel",
+    "place": 3,
+    "category": "Women Cat 3/4/5",
+    "finish": "3 of 4"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 4,
+    "category": "Cat 1/2/3",
+    "finish": "4 of 28"
+  },
+  {
+    "date": "Jun 13 2026",
+    "date_iso": "2026-06-13",
+    "race": "2026 Taco Time Volunteer Park Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Jonathan Wang",
+    "place": 42,
+    "category": "Cat 4/5 Senior M",
+    "finish": "42 of 45"
+  },
+  {
     "date": "Jul 12 2026",
     "date_iso": "2026-07-12",
     "race": "Tri-State Cycling Woonie Crit",
