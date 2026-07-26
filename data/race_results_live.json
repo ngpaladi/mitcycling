@@ -1,5 +1,35 @@
 [
   {
+    "date": "Jul 25 2026",
+    "date_iso": "2026-07-25",
+    "race": "Devens Grand Prix p/b Conte's Bike Shop",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Lorenzo Van munoz",
+    "place": 20,
+    "category": "Open / Men's Category 3/4",
+    "finish": "20 of 20"
+  },
+  {
+    "date": "Jul 25 2026",
+    "date_iso": "2026-07-25",
+    "race": "Devens Grand Prix p/b Conte's Bike Shop",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 15,
+    "category": "Open / Men's Category 4/5",
+    "finish": "15 of 48"
+  },
+  {
+    "date": "Jul 25 2026",
+    "date_iso": "2026-07-25",
+    "race": "Devens Grand Prix p/b Conte's Bike Shop",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 33,
+    "category": "Open / Men's Category 4/5",
+    "finish": "33 of 48"
+  },
+  {
     "date": "Jul 19 2026",
     "date_iso": "2026-07-19",
     "race": "Yarmouth Clam Festival Bike Race",
