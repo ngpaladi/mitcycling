@@ -1,5 +1,25 @@
 [
   {
+    "date": "Jul 28 2026",
+    "date_iso": "2026-07-28",
+    "race": "TNC at the Rent #5",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 17,
+    "category": "A Race",
+    "finish": "17 of 19"
+  },
+  {
+    "date": "Jul 28 2026",
+    "date_iso": "2026-07-28",
+    "race": "TNC at the Rent #5",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 11,
+    "category": "B Race",
+    "finish": "11 of 24"
+  },
+  {
     "date": "Jul 25 2026",
     "date_iso": "2026-07-25",
     "race": "Devens Grand Prix p/b Conte's Bike Shop",
