@@ -1,5 +1,25 @@
 [
   {
+    "date": "Aug 4 2026",
+    "date_iso": "2026-08-04",
+    "race": "TNC at the Rent #6",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 23,
+    "category": "A Race",
+    "finish": "23 of 35"
+  },
+  {
+    "date": "Aug 4 2026",
+    "date_iso": "2026-08-04",
+    "race": "TNC at the Rent #6",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 25,
+    "category": "B Race",
+    "finish": "25 of 45"
+  },
+  {
     "date": "Jul 28 2026",
     "date_iso": "2026-07-28",
     "race": "TNC at the Rent #5",
