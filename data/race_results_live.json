@@ -1,5 +1,25 @@
 [
   {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "Concord Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 9,
+    "category": "Men Master 60+",
+    "finish": "9 of 20"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "Concord Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Lorenzo Van munoz",
+    "place": 14,
+    "category": "Men 4/5",
+    "finish": "14 of 34"
+  },
+  {
     "date": "Aug 4 2026",
     "date_iso": "2026-08-04",
     "race": "TNC at the Rent #6",
