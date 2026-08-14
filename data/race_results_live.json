@@ -2,6 +2,36 @@
   {
     "date": "Aug 8 2026",
     "date_iso": "2026-08-08",
+    "race": "MAINEly Gravel",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Jody Mou",
+    "place": 3,
+    "category": "Women 58 Mile Gravel Grind (19-39 women)",
+    "finish": "3 of 7"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "MAINEly Gravel",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Yaocheng Tian",
+    "place": 36,
+    "category": "Men 58 Mile Gravel Grind (19-39 men)",
+    "finish": "36 of 52"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "MAINEly Gravel",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 37,
+    "category": "Men 58 Mile Gravel Grind (19-39 men)",
+    "finish": "37 of 52"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
     "race": "Concord Criterium",
     "race_url": "https://results.bikereg.com/team/40588",
     "rider": "Daniel Dudzik",
