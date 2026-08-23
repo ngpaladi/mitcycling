@@ -1,5 +1,15 @@
 [
   {
+    "date": "Aug 22 2026",
+    "date_iso": "2026-08-22",
+    "race": "Tokeneke Road Race",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 28,
+    "category": "Men Cat 4/5",
+    "finish": "28 of 35"
+  },
+  {
     "date": "Aug 8 2026",
     "date_iso": "2026-08-08",
     "race": "MAINEly Gravel",
