@@ -1,5 +1,15 @@
 [
   {
+    "date": "Sep 25 2026",
+    "date_iso": "2026-09-25",
+    "race": "New Haven Grand Prix",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 17,
+    "category": "Men Pro/1/2",
+    "finish": "17 of 37"
+  },
+  {
     "date": "Aug 25 2026",
     "date_iso": "2026-08-25",
     "race": "Pacific Raceways Circuit Race",
