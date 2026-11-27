@@ -24,8 +24,8 @@ summaryLength = 50
   donateURL = "https://giving.mit.edu"
   # Set your Behold.so widget ID here for a live Instagram feed (free at behold.so)
   beholdWidgetId = ""
-  # Hero image path (relative to /static). Swap to a higher-res team photo when available.
-  heroImage = "img/hero-team.png"
+  # Hero image path (relative to /assets). Swap to a higher-res team photo when available.
+  heroImage = "/img/hero-team.png"
   # road-results.com team widget ID (from the embed code on your team page)
   roadResultsTeamId = "40588"
   # crossresults.com team widget ID

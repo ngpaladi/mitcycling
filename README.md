@@ -18,7 +18,7 @@ Key settings in `hugo.toml`:
 
 | Param | Purpose |
 |-------|---------|
-| `heroImage` | Hero photo path (relative to `assets/`), e.g. `img/hero-team.jpg` |
+| `heroImage` | Hero photo path (relative to `assets/`), e.g. `/img/hero-team.png` |
 | `email` | General club contact email |
 | `officersEmail` | Officers list shown on the Contact page |
 | `sponsorshipEmail` | Sponsorship inquiries email |
@@ -41,9 +41,7 @@ Key settings in `hugo.toml`:
 All images that need correct URL prefixing live in `assets/img/`:
 
 - `assets/img/hero-team.jpg` — hero photo (swap via `heroImage` param)
-- `assets/img/blog/` — blog post header images
-- `assets/img/blog/inline/` — inline images embedded in blog posts
-- `assets/img/blog/posts/<slug>/` — per-post inline images (where downloaded)
+- `assets/img/blog/posts/<slug>/` — per-post images
 - `assets/img/sponsors/` — sponsor logos
 
 Images in `assets/` are served through Hugo's resource pipeline, which correctly prepends the site base path. Do not put images that need URL-prefixing in `static/`.

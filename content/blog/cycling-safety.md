@@ -4,7 +4,7 @@ date: 2024-12-02T09:00:00-05:00
 author: "Aaron Vliet"
 categories: ["Safety", "Tips"]
 tags: ["safety", "tips", "road"]
-image: "/img/blog/cycling-safety.jpg"
+image: "/img/blog/posts/cycling-safety/safety2.jpg"
 ---
 
 ## Road Safety
@@ -14,7 +14,7 @@ image: "/img/blog/cycling-safety.jpg"
 - Watch out for cars turning right (especially if you are going straight through the intersection)
 
 - Watch for cars turning left from oncoming traffic. These are often the most dangerous because they are the least likely to see you in the bike lane and often turn fast to shoot a gap
-<img src="http://cycling.mit.edu/blog/wp-content/uploads/2024/12/safety1.png" alt="" loading="lazy">
+![](/img/blog/posts/cycling-safety/safety1.png)
 
 - Avoid being directly behind or alongside cars, especially trucks. This is their blind spot and the most dangerous place to be. Since they can brake faster than you, you might run into the back of them, or they could turn into you since they can't see you
 
@@ -23,12 +23,12 @@ image: "/img/blog/cycling-safety.jpg"
 - Stay alert in bike lanes with parked cars between you and traffic. Pedestrians will forget that there is a bike lane and jump out from between cars or out of cars. Generally stay as far away from the car side as you can. The intersections in these types of bike lanes can be dangerous. You are hidden by the parked cars, so you and the turning cars have less time to react. Go slow into the intersections.
 
 - If in a bike lane between parked cars and traffic, stay on the side with traffic. Counter-intuitive, but much safer. The cars are coming up behind you and see you. They are unlikely to hit you.
-<img src="http://cycling.mit.edu/blog/wp-content/uploads/2024/12/safety2.jpg" alt="" loading="lazy">
+![](/img/blog/posts/cycling-safety/safety2.jpg)
  Meanwhile, people opening doors from their car into the bike lane or walking out between two parked cars don't see you and aren't looking for you. This is much more dangerous.
 
-If a car has lights on, give it an extra wide berth because the odds that someone is getting in or out are high
+  - If a car has lights on, give it an extra wide berth because the odds that someone is getting in or out are high
 
-- side note: advocate for safer infrastructure - https://www.cambridgebikesafety.org/
+  - side note: advocate for safer infrastructure - https://www.cambridgebikesafety.org/
 
 - Give trucks extra space when they are turning because they often end up in the bike lane and even over the sidewalks during a sharp turn
 
@@ -40,7 +40,7 @@ If a car has lights on, give it an extra wide berth because the odds that someon
 
 - Look ahead and behind you often. You'll have a feeling for what's ahead and the traffic behind you. That way you can comfortably and safely avoid situations by taking early evasive action
 
-If you have trouble looking behind you, try taking your left hand and grabbing the back of your seat. This allows your chest to turn with you as you do a check over your shoulder
+  - If you have trouble looking behind you, try taking your left hand and grabbing the back of your seat. This allows your chest to turn with you as you do a check over your shoulder
 
 - Get comfortable taking the full road when necessary. If it's a tight road and you'd feel unsafe with a car passing you, ride in the middle so they won't. Make sure to look that it is safe to take the full road and signal that you are moving laterally. You generally have the right to do this, hence all of the "bicycles may use full lane" signs. However, if there is a wider section, pull over to let them pass so you don't anger the drivers
 
@@ -60,9 +60,8 @@ If you have trouble looking behind you, try taking your left hand and grabbing t
 
 - Signal your intentions (e.g. left arm out if merging into left lane or turning left)
 
-- When making a
-<img src="http://cycling.mit.edu/blog/wp-content/uploads/2024/12/safety3.png" alt="" loading="lazy">
- left turn in an intersection with a left turn lane, either use the left turn lane (taking the lane fully) or do a two part left turn, where you continue straight to the opposite corner and wait for the light to turn for perpendicular traffic. Sometimes there is a dedicated space for bikes to sit by the corner to make this sort of turn.
+![](/img/blog/posts/cycling-safety/safety3.png)
+- When making a left turn in an intersection with a left turn lane, either use the left turn lane (taking the lane fully) or do a two part left turn, where you continue straight to the opposite corner and wait for the light to turn for perpendicular traffic. Sometimes there is a dedicated space for bikes to sit by the corner to make this sort of turn.
 
 - Don't brake hard with only the front brakes - unless you want to do a cartwheel ;)
 
