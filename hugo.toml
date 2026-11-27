@@ -21,6 +21,7 @@ summaryLength = 50
   raceEmail = "cycling-race@mit.edu"
   officersEmail = "cycling-all-officers@mit.edu"
   sponsorshipEmail = "cycling-sponsorship@mit.edu"
+  websiteEmail = "cycling-webmaster@mit.edu"
   donateURL = "https://giving.mit.edu"
   # Set your Behold.so widget ID here for a live Instagram feed (free at behold.so)
   beholdWidgetId = ""

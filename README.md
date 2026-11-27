@@ -22,6 +22,7 @@ Key settings in `hugo.toml`:
 | `email` | General club contact email |
 | `officersEmail` | Officers list shown on the Contact page |
 | `sponsorshipEmail` | Sponsorship inquiries email |
+| `websiteEmail` | Website inquiries email |
 | `roadResultsTeamId` | road-results.com team ID for widget embed |
 | `crossResultsTeamId` | crossresults.com team ID for widget embed |
 
