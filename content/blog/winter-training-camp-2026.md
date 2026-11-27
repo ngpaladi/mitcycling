@@ -1,7 +1,7 @@
 ---
 title: "Winter Training Camp 2026"
 date: 2026-02-25T09:00:00-05:00
-author: "Aaron Vliet"
+author: "Lorenzo Van Munoz"
 categories: ["Training", "Road", "Rides", "Photos"]
 tags: ["training camp", "road", "2026", "Tucson"]
 image: "/img/blog/winter-training-camp-2026.jpg"
